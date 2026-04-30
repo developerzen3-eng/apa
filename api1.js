@@ -9,7 +9,8 @@ const scripts = {
     ciko: 'HYBRID.js',
     tlss: 'TLS-SILIT.js',
     https: 'HTTPS2.js',
-    str: 'storm.js'
+    str: 'storm.js',
+    h2: 'h2.js'
 };
 
 app.get('/api', (req, res) => {
