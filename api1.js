@@ -33,7 +33,7 @@ app.get('/api', (req, res) => {
     console.log(`Running ${method}: ${scriptPath}`);
 
     // GUNAKAN spawn agar bisa kill 1 group (-pid)
-    const child = spawn("node", [scriptPath, host, time, 5, 5, "proxy.txt"], {
+    const child = spawn("node", [scriptPath, host, time, 150, 6, "proxy.txt"], {
         detached: true, // MEMBUAT PROCESS GROUP
         stdio: "ignore"
     });
