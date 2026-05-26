@@ -2,7 +2,7 @@ const express = require('express');
 const { spawn } = require('child_process');
 const path = require('path');
 const app = express();
-const port = 54000;
+const port = 65000;
 
 const scripts = {
     tls: 'TLS-PRV.js',
